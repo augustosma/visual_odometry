@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="visual_odometry" 
+		type="visual_odometry_node" 
+		name="vo_node_name"	
+		output="screen"		
+		launch-prefix="xterm -e gdb -ex run --args"
+				>
+	</node>
+</launch>
